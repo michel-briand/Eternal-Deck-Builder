@@ -20,11 +20,11 @@ bool flag = false;
 QDir AppFolder;
 
     AppFolder.setPath(QCoreApplication::applicationDirPath());
-    while (AppFolder.dirName() != "bin" && i<4)
-        {
-        i++;
-        AppFolder.cdUp();
-        }
+    //while (AppFolder.dirName() != "bin" && i<4)
+    //    {
+    //    i++;
+    //    AppFolder.cdUp();
+    //    }
 
     AppFolder.cdUp();
     if (AppFolder.cd("Cartes"))

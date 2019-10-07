@@ -11,7 +11,7 @@
   along with Marb.  If not, see <http://www.gnu.org/licenses/>.
  Marb  Copyright (C) 2013  Dimitry Ernot
 */
-#include "piechart3d.h"
+#include "Charts/piechart3D.h"
 #include "Marb.h"
 #include <QPainter>
 #include <QPaintEvent>

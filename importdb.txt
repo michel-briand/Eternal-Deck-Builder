@@ -1,0 +1,18 @@
+comment importer la base de données csv issue du site http://www.vekn.net/card-lists ?
+
+idéalement reprendre la même structure pour une maj "blind"
+
+   id               null
+   Name             Name
+   Aka              rien à branler ou créer colonne Aka
+   Type             Type
+   Clan             Clan
+   Adv              créer colonne Adv
+   Group            Grouping
+   Capacity         Capacity
+   Disciplines      Discipline
+   Card text        Text
+   Set              Expansion
+   Title            Title
+   Banned           ?Limitation ou créer colonne Banned
+   Artist           Artist

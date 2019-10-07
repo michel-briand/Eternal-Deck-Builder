@@ -37,7 +37,7 @@ void DisciplineButton::paintEvent(QPaintEvent *e)
             option.icon = this->icon();
             option.iconSize = this->iconSize();
             option.features |= QStyleOptionButton::Flat;
-            option.state = ! QStyle::State_Enabled;
+            option.state = QStyle::State_None;
             QPainter painter(this);
             style()->drawControl(QStyle::CE_PushButton, &option, &painter, this);
             }   break;

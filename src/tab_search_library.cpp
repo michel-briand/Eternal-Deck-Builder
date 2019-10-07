@@ -71,7 +71,7 @@ tab_search_library::tab_search_library(QWidget *parent) : QScrollArea(parent), u
     for (int i=16; i<=22; i++)  { ui->PTVCardsResults->hideColumn(i); }
 
     ui->PTVCardsResults->setVisible(true);
-    ui->PTVCardsResults->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+/*    ui->PTVCardsResults->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
     ui->PTVCardsResults->horizontalHeader()->setSectionResizeMode( 9, QHeaderView::Fixed);
     ui->PTVCardsResults->horizontalHeader()->setSectionResizeMode( 13, QHeaderView::Fixed);
     ui->PTVCardsResults->horizontalHeader()->setSectionResizeMode( 14, QHeaderView::Fixed);
@@ -80,7 +80,7 @@ tab_search_library::tab_search_library(QWidget *parent) : QScrollArea(parent), u
     ui->PTVCardsResults->horizontalHeader()->resizeSection( 14, 60 );
     ui->PTVCardsResults->horizontalHeader()->setStretchLastSection(true);
     ui->PTVCardsResults->verticalHeader()->setDefaultSectionSize( 40 ); //set the default height of rows a bit taller for a better lisibility
-
+*/
     // SETUP THE COMPLETER FOR CARD NAME FIELD
     Completer = new QCompleter( this );
     Completer->setCaseSensitivity( Qt::CaseInsensitive );
